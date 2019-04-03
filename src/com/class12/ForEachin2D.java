@@ -27,7 +27,7 @@ public class ForEachin2D {
 		System.out.println("For each loop----------------------");
 		for(String[] products:grocery) {
 			for(String all:products) {
-				
+				 
 				System.out.print(all+" ");
 			}
 			System.out.println();
