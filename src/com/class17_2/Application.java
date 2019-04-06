@@ -1,0 +1,60 @@
+package com.class17_2;
+import com.class17_2.ScannerMethod;
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//ScannerMethod mt=new ScannerMethod();
+		//mt.sub(1, 2);//I cannot access to mt.sum because that class is private
+		
+
+		
+		        ScannerMethod scnMthd = new ScannerMethod();
+		        System.out.println(scnMthd.sum(125, 150));
+
+		        Application app=new Application();
+		        System.out.println(app.example6('1'));
+		    }
+
+		    void example() {
+
+		        System.out.println("No return value and NO Parameters");
+		    }
+
+		    void example2(String name) {
+
+		        System.out.println("No return value but with Parameter : " + name);
+		    }
+
+		    boolean example3() {
+
+		        System.out.println("With return value and NO Parameters");
+		        return true;
+		    }
+
+		    String example4(String name) {
+
+		        System.out.println("No return value but with Parameter : " + name);
+		        
+		        return name;
+		    }
+		    
+		    
+		    boolean example5(String name) {
+
+		        System.out.println("No return value but with Parameter : " + name);
+		        
+		        return false;
+		    }
+		    
+		    
+		    long example6(char name) {
+
+		        System.out.println("No return value but with Parameter : " + name);
+		        name=1;
+		        return name;
+		    }
+	
+
+}

@@ -8,7 +8,17 @@ public class MethodWithReturnValue {
 		String str="Hello";
 		int stringlength=str.length();
 		System.out.println(stringlength);
+		
+		MethodWithReturnValue obj=new MethodWithReturnValue();
+		
+		String day=obj.whatIsADay();
+		
 
+	}
+	
+	void whatIsADay() {
+		
+		return "Thursday";
 	}
 
 }
